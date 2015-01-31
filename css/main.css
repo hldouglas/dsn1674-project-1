@@ -8,8 +8,14 @@ h1, h2, h3  {
   font-family: 'Sigmar One', cursive;
 }
 
+h1, figcaption, aside  {
+  text-align: center;
+}
+
 span, blockquote  {
   color: #B8B800;
+  text-align: center;
+  display: block;
 }
 
 a {
