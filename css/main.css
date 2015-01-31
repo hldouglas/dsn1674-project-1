@@ -1,6 +1,7 @@
 html  {
   background-color: white;
   font-family: 'Georgia', normal;
+  font-weight: normal;
 }
 
 h1, h2, h3  {
@@ -23,8 +24,15 @@ figcaption, dl  {
   font-style: italic;
 }
 
-dt  {
-  font-style: bold;
+dl dt  {
+  font-style: normal;
+  font-weight: bold;
+}
+
+dl dd  {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
 }
 
 a {
