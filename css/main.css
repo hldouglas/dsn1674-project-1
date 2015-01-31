@@ -1,0 +1,17 @@
+html  {
+  background-color: white;
+  font-family: 'Georgia', normal;
+}
+
+h1, h2, h3  {
+  color: #A70044;
+  font-family: 'Sigmar One', cursive;
+}
+
+span, blockquote  {
+  color: #B8B800;
+}
+
+a {
+  color: #A70044;
+}
