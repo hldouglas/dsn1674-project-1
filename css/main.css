@@ -16,6 +16,15 @@ span, blockquote  {
   color: #B8B800;
   text-align: center;
   display: block;
+  font-style: italic;
+}
+
+figcaption, dl  {
+  font-style: italic;
+}
+
+dt  {
+  font-style: bold;
 }
 
 a {
