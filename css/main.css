@@ -3,6 +3,19 @@ html  {
   font-family: 'Georgia', normal;
   font-weight: normal;
   line-height: 1.5rem;
+  max-width: 600px;
+  min-width: 320px;
+}
+
+header, aside {
+  background-color: #FFEC0A;
+  margin: 0;
+  padding: 25px;
+  line-height: 2rem;
+}
+
+ol {
+  margin: 0;
 }
 
 h1, h2, h3  {
@@ -12,6 +25,7 @@ h1, h2, h3  {
 
 h1 {
   font-size: 3rem;
+  margin: 0;
 }
 
 h2{
