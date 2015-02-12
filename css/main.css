@@ -7,6 +7,14 @@ html  {
   min-width: 320px;
 }
 
+body {
+  margin: 0;
+}
+
+main {
+  padding: 0, 5px;
+}
+
 header, aside {
   background-color: #FFEC0A;
   margin: 0;
@@ -36,11 +44,15 @@ h1, figcaption, aside  {
   text-align: center;
 }
 
+img {
+  width: 100%;
+}
+
 li {
-  list-style-type: none;
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
+  padding: .5em;
+  border-radius: .2em;
+  background-color: #b2a215;
+  display: inline;
 }
 
 aside, figcaption {
@@ -56,7 +68,7 @@ blockquote {
 }
 
 span, blockquote  {
-  color: #B8B800;
+  color: #b2a215;
   text-align: center;
   display: block;
   font-style: italic;
