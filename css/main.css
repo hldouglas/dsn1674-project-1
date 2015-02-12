@@ -7,14 +7,6 @@ html  {
   min-width: 320px;
 }
 
-body {
-  margin: 0;
-}
-
-main {
-  padding: 0, 5px;
-}
-
 header, aside {
   background-color: #FFEC0A;
   margin: 0;
@@ -46,6 +38,16 @@ h1, figcaption, aside  {
 
 img {
   width: 100%;
+}
+
+figure{
+  background-color: #fffce0;
+  padding: .75em;
+  border-radius: .5em;
+  border: 2px solid #b2a215;
+  text-align: center;
+  font-size: .75em;
+  line-height:1.5em;
 }
 
 li {
