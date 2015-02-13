@@ -7,11 +7,23 @@ html  {
   min-width: 320px;
 }
 
-header, aside {
-  background-color: #FFEC0A;
+body, header h1, dd{
   margin: 0;
-  padding: 25px;
+}
+
+header, aside {
+  background-color: #ffe524;
+  margin: 0;
   line-height: 2rem;
+  text-align: center;
+}
+
+aside {
+  padding: 9px;
+}
+
+header {
+  padding: 25px;
 }
 
 ol {
@@ -35,7 +47,7 @@ h2{
   margin: 0;
 }
 
-h1, figcaption, aside  {
+h1, figcaption  {
   text-align: center;
 }
 
@@ -51,18 +63,27 @@ figure{
   text-align: center;
   font-size: .75em;
   line-height:1.5em;
+  margin: 0;
 }
 
-li {
-  padding: .5em;
-  border-radius: .2em;
+nav li {
+  padding: 0.5em;
+  border-radius: 0.2em;
   background-color: #b2a215;
   display: inline;
+}
+
+nav li:hover {
+  background-color: #cc3865;
+}
+
+nav, main {
   padding: 0.5em;
 }
 
-li:hover{
-  background-color: #cc3865;
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
 aside, figcaption {
