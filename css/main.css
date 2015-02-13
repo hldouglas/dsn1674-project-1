@@ -11,15 +11,19 @@ body, header h1, dd{
   margin: 0;
 }
 
+header {
+  padding: 0, 0, 10px;
+}
+
 header, aside {
   background-color: #ffe524;
-  margin: 0;
   line-height: 2rem;
   text-align: center;
 }
 
 aside {
   padding: 9px;
+  margin: 0;
 }
 
 ol {
@@ -61,10 +65,6 @@ figure{
   font-size: .75em;
   line-height:1.5em;
   margin: 0;
-}
-
-nav {
-  padding: 0, 0, 10px;
 }
 
 nav li {
