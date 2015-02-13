@@ -22,12 +22,9 @@ aside {
   padding: 9px;
 }
 
-header {
-  padding: 25px;
-}
-
 ol {
   margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3  {
@@ -37,7 +34,7 @@ h1, h2, h3  {
 
 h1 {
   font-size: 3rem;
-  margin: 0;
+  padding: 25px;
 }
 
 h2{
@@ -66,6 +63,10 @@ figure{
   margin: 0;
 }
 
+nav {
+  padding: 0, 0, 10px;
+}
+
 nav li {
   padding: 0.5em;
   border-radius: 0.2em;
@@ -77,13 +78,14 @@ nav li:hover {
   background-color: #cc3865;
 }
 
-nav, main {
-  padding: 0.5em;
+main {
+  padding: 0.6em;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 1.15rem;
 }
 
 aside, figcaption {
@@ -96,6 +98,11 @@ span {
 
 blockquote {
   font-size: 1.1rem;
+  margin: 22px;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 span, blockquote  {
